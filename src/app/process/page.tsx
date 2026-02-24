@@ -50,7 +50,7 @@ const steps = [
 const faqs = [
     { q: "Mennyi ideig tart a tervezési folyamat?", a: "Általában 2-4 hetet vesz igénybe a terület méretétől és a koncepció összetettségétől függően." },
     { q: "Vállalnak kisebb kerteket is?", a: "Igen, hiszünk abban, hogy kis térben is lehet nagyot alkotni. Teraszok és kisvárosi kertek tervezését is vállaljuk." },
-    { q: "Milyen garanciát vállalnak?", a: "Az általunk ültetett növényekre 1 év eredési garanciát, az épített elemekre és öntözőrendszerekre pedig 3 év teljeskörű garanciát biztosítunk." },
+    { q: "Milyen garanciát vállalnak?", a: "Az általunk ültetett növényekre 1 év eredési garanciát, az épített elemekre és öntözőrendszerekre pedig 2 év garanciát biztosítunk." },
     { q: "Mennyibe kerül egy átlagos kivitelezés?", a: "Minden projekt egyedi. Az árat befolyásolja a terület mérete, a választott anyagok és növények minősége. Kérjen ingyenes konzultációt pontos árajánlatért." },
 ];
 

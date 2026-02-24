@@ -106,7 +106,7 @@ export default function AboutPage() {
                                     </div>
                                 </div>
                                 <div>
-                                    <p className="font-heading text-xl text-primary-green font-bold leading-none mb-1">Hatvány Bence</p>
+                                    <p className="font-heading text-xl text-primary-green font-bold leading-none mb-1">Hatvany Bence</p>
                                     <p className="text-[10px] text-accent-gold uppercase tracking-[2px]">Alapító</p>
                                 </div>
                             </div>
