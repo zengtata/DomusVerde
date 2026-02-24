@@ -152,7 +152,7 @@ export default function AboutPage() {
                     <div className="grid md:grid-cols-4 gap-8">
                         {[
                             { name: "Bence", role: "Alapító", img: "/images/businessman.jpg" },
-                            { name: "Kata", role: "Tervező", img: "/images/kata.jpg" },
+                            { name: "Kata", role: "Tervező", img: "/images/Kata.jpg" },
                             { name: "Simon", role: "", img: "/images/Simon.jpeg" },
                             { name: "Kergyó", role: "", img: "/images/Kergyó.jpg" },
                         ].map((member, i) => (
