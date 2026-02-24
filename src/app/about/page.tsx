@@ -149,17 +149,17 @@ export default function AboutPage() {
                         </h2>
                     </Reveal>
 
-                    <div className="grid md:grid-cols-3 gap-8">
+                    <div className="grid md:grid-cols-4 gap-8">
                         {[
-                            { name: "Nagy Eszter", role: "Vezető Tájépítész", img: "/images/5ec93c46-30c1-495b-ad0b-f0fac59d59aa.jpg" },
-                            { name: "Varga Péter", role: "Kivitelezési Vezető", img: "/images/1c40a67a-cd12-4797-86f2-9742ba97a2e8.jpg" },
-                            { name: "Szabó Lilla", role: "Növény Szakértő", img: "/images/7a58a5c7-c634-4314-a2dc-2851125af4a4.jpg" },
+                            { name: "Bence", role: "Alapító", img: "/images/businessman.jpg" },
+                            { name: "Kata", role: "Tervező", img: "/images/kata.jpg" },
+                            { name: "Simon", role: "", img: "/images/Simon.jpeg" },
+                            { name: "Kergyó", role: "", img: "/images/Kergyó.jpg" },
                         ].map((member, i) => (
                             <Reveal key={i} delay={i * 150} className="h-full">
                                 {/* Card Container */}
                                 <div className="group relative h-[450px] w-full overflow-hidden rounded-xl border border-white/10 shadow-lg bg-primary-charcoal/50">
 
-                                    {/* Image - Removed grayscale classes so it's always full color */}
                                     <Image
                                         src={member.img}
                                         alt={member.name}
