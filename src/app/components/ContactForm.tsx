@@ -31,9 +31,6 @@ export default function ContactSection() {
                         <input type="hidden" name="from_name" value="Domus Verde Website" />
                         <input type="hidden" name="subject" value="Új Ügyfél Megkeresés" />
 
-                        {/* IMPORTANT: Do NOT add a manual input for h-captcha-response here.
-                The <HCaptcha> component below adds it automatically.
-                Adding it manually causes the "Duplicate Token" error. */}
 
                         {/* Form Fields */}
                         <div className="md:col-span-2">

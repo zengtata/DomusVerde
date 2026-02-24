@@ -25,7 +25,7 @@ export default function FloatingCTA() {
     if (!isVisible) return null;
 
     return (
-        <div className={`fixed bottom-8 right-8 z-[90] transition-all duration-700 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+        <div className={`fixed bottom-25 right-8 z-[90] transition-all duration-700 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
             <Link
                 href="/#contact" // Redirects to Home Page -> #contact section
                 className="group flex items-center gap-3"

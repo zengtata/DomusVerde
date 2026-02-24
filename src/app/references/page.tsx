@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Header from '../components/Header';
 import Reveal from '../components/Reveal';
+import Footer from "@/app/components/Footer";
 
 // --- MOCK DATA ---
 const projects = [
@@ -110,13 +111,11 @@ export default function GalleryPage() {
             )}
 
             {/* FOOTER */}
-            <footer className="bg-primary-green text-white py-12 text-center">
-                <div className="container mx-auto px-6">
-                    <p className="font-heading text-2xl font-bold mb-4">DOMUS VERDE</p>
-                    <p className="text-white/70 mb-8">kert@domusverde.hu</p>
-                    <p className="text-xs text-white/50">&copy; 2025 Domus Verde. Minden jog fenntartva.</p>
-                </div>
-            </footer>
+            <section id="contact">
+                <Reveal delay={100}>
+                    <Footer />
+                </Reveal>
+            </section>
 
         </main>
     );

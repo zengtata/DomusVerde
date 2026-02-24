@@ -8,8 +8,8 @@ export default function Header() {
 
     const navItems = [
         { label: 'Rólunk', href: '/about' },
-        { label: 'Galéria', href: '/references' },
         { label: 'Folyamat', href: '/process' },
+        { label: 'Galéria', href: '/references' },
         { label: 'Kapcsolat', href: '/#contact' },
     ];
 

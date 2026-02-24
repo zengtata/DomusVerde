@@ -23,21 +23,21 @@ const statBlocks = [
         id: 3,
         type: 'stat',
         image: "/images/4f50f071-0bc7-4b7a-928e-4538c438ed49.jpg",
-        value: "140+",
-        label: "Megvalósult Kert"
+        value: "20+",
+        label: "Megépített Kert"
     },
     {
         id: 4,
         type: 'stat',
         image: "/images/5ec93c46-30c1-495b-ad0b-f0fac59d59aa.jpg",
-        value: "5000+",
+        value: "10000+",
         label: "Elültetett Növény"
     },
     {
         id: 5,
         type: 'stat',
         image: "/images/7a58a5c7-c634-4314-a2dc-2851125af4a4.jpg",
-        value: "12",
+        value: "5",
         label: "Év Tapasztalat"
     },
     {
@@ -45,7 +45,7 @@ const statBlocks = [
         type: 'stat',
         image: "/images/31b151ba-ee87-4f54-8789-d81c0d61fdef.jpg",
         value: "0",
-        label: "Rizikós Projekt"
+        label: "Kompromisszum"
     },
 ];
 

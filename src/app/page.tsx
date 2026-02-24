@@ -5,6 +5,8 @@ import ProjectsCarousel from "./components/ProjectsCarousel";
 import Stats from "./components/Stats";
 import ProcessHint from "./components/ProcessHint";
 import ContactForm from "./components/ContactForm";
+import React from "react";
+import Footer from "@/app/components/Footer";
 
 export default function Home() {
   return (
@@ -117,14 +119,14 @@ export default function Home() {
           </Reveal>
         </section>
 
+
         {/* FOOTER */}
-        <footer className="bg-primary-green text-white py-12 text-center">
-          <div className="container mx-auto px-6">
-            <p className="font-heading text-2xl font-bold mb-4">DOMUS VERDE</p>
-            <p className="text-white/70 mb-8">kert@domusverde.hu</p>
-            <p className="text-xs text-white/50">&copy; 2025 Domus Verde. Minden jog fenntartva.</p>
-          </div>
-        </footer>
+        <section id="contact">
+          <Reveal delay={100}>
+            <Footer />
+          </Reveal>
+        </section>
+
       </main>
   );
 }
