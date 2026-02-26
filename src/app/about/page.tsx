@@ -153,12 +153,12 @@ export default function AboutPage() {
                         {[
                             { name: "Bence", role: "Alapító", img: "/images/businessman.jpg" },
                             { name: "Kata", role: "Tervező", img: "/images/Kata.jpg" },
-                            { name: "Simon", role: "", img: "/images/Simon.jpeg" },
-                            { name: "Kergyó", role: "", img: "/images/Kergyó.jpg" },
+                            { name: "Simon", role: "", img: "/images/Simon1.jpeg" },
+                            { name: "Kergyó", role: "", img: "/images/Kergyo.jpg" },
                         ].map((member, i) => (
                             <Reveal key={i} delay={i * 150} className="h-full">
                                 {/* Card Container */}
-                                <div className="group relative h-[450px] w-full overflow-hidden rounded-xl border border-white/10 shadow-lg bg-primary-charcoal/50">
+                                <div className="group relative h-[350px] w-full overflow-hidden rounded-xl border border-white/10 shadow-lg bg-primary-charcoal/50">
 
                                     <Image
                                         src={member.img}
